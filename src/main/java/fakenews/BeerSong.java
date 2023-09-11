@@ -26,11 +26,12 @@ public class BeerSong {
             System.out.println(beerNum + " " + word + " of beer");
             System.out.println("Take one down. ");
             System.out.println("Pass it around. ");
+            System.out.println(beerNum + " " + word + " of beer on the wall");
+
             beerNum = beerNum - 1;
 
-
             //updating this if condition from (beerNum > 0) to (beerNum == 0) fixes the bug. also  Else statement was not needed.
-            if (beerNum == 0 ) {
+            if (beerNum == 0) {
                 System.out.println("No more bottles of beer on the wall");
 //                System.out.println(beerNum + " " + word + " of beer on the wall"); -Jordy: THIS STATEMENT IS NOT NEEDED
             }
