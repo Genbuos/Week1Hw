@@ -23,6 +23,14 @@ public class BeerSong {
 
 
             }
+            if(beerNum == 99){
+
+                System.out.println(beerNum + " " + word + " of beer on the wall");
+                System.out.println(beerNum + " " + word + " of beer\n");
+                System.out.println("Take one down.");
+                System.out.println("Pass it around.");
+                beerNum = beerNum - 1;
+            }
 
 
             // CRTL D TO DUPLICATE
