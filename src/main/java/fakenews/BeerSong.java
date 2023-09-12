@@ -13,6 +13,7 @@ public class BeerSong {
 
         // the old head song when you on a road trip
         int beerNum = 99;
+
         String word = "bottles";
 
 
@@ -20,15 +21,20 @@ public class BeerSong {
             if (beerNum == 1){
                 word = "bottle";
 
-            }
-            // CRTL D TO DUPLICATE
-            System.out.println(beerNum + " " + word + " of beer on the wall");
-            System.out.println(beerNum + " " + word + " of beer");
-            System.out.println("Take one down. ");
-            System.out.println("Pass it around. ");
-            System.out.println(beerNum + " " + word + " of beer on the wall");
 
-            beerNum = beerNum - 1;
+            }
+
+
+            // CRTL D TO DUPLICATE
+            System.out.println(beerNum + " " + word + " of beer on the wall \n");
+            System.out.println(beerNum + " " + word + " of beer on the wall");
+            System.out.println(beerNum + " " + word + " of beer\n");
+            System.out.println("Take one down.");
+            System.out.println("Pass it around.");
+//            System.out.println(beerNum -  1 + " " + word + " of beer on the wall\n");
+
+
+            beerNum = beerNum -1;
 
             //updating this if condition from (beerNum > 0) to (beerNum == 0) fixes the bug. also  Else statement was not needed.
             if (beerNum == 0) {
