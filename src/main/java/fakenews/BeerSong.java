@@ -4,7 +4,7 @@ package fakenews;
 // Now apparently there is some kind of flaw in this code. The assignment is to find the bug and fix it!
 
 
-// -Jordy: the bug is somewhere in the while loop. the second phrase in the song is incorrect.
+// -Jordy: the bug is somewhere in a print statement. the second phrase in the song is incorrect.
 // "bottles" is being printed instead of "bottle" until our beerNum is equal to 1.
 // also its repeating the first sout statement instead of moving on to the next one.
 public class BeerSong {
